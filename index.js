@@ -17,8 +17,8 @@ var license = license ||
     '! ' + pkgname +
     ' | ' + pkgversion +
     ' | ' + pkglicense +
-    ' | ' + date.getDay() +
-    '/' + date.getDate() +
+    ' | ' + date.getDate() +
+    '/' + (date.getMonth() + 1) +
     '/' + date.getFullYear() + ' ';
 
 /* PostCSS Plugins */
