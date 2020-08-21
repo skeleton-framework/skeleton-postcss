@@ -1,12 +1,12 @@
 {
   "name": "skeleton-postcss",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "A simple framework for PostCSS development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gary DeLaney <gld1982ltd@gmail.com> (http://gld1982ltd.xyz)",
+  "author": "Gary DeLaney",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -23,12 +23,10 @@
     "skeleton-framework"
   ],
   "dependencies": {
-    "autoprefixer": "^6.3.3",
-    "clean-css": "^3.4.10",
-    "postcss": "^5.0.19",
-    "postcss-banner": "^1.2.0",
-    "postcss-calc": "^5.2.0",
-    "postcss-custom-properties": "^5.0.0",
-    "postcss-import": "^8.0.2"
+    "autoprefixer": "^9.8.6",
+    "clean-css": "^4.2.3",
+    "postcss": "^7.0.32",
+    "postcss-banner": "^3.0.2",
+    "postcss-import": "^12.0.1"
   }
 }
